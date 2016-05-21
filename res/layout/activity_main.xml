@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.panzhiming.viewpage.MainActivity" >
+    
+    <RelativeLayout 
+       android:layout_width="match_parent"
+       android:layout_height="200dp">
+        
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            />
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:background="#33000000">
+           
+            <TextView 
+                android:id="@+id/tv_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="shgeihg"/>
+            
+            <LinearLayout 
+                android:id="@+id/ll_point_container"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                
+            </LinearLayout>
+        </LinearLayout>
+       
+    </RelativeLayout>
+    
+    
+    
+    
+
+</RelativeLayout>
